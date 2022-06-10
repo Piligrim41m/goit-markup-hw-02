@@ -20,7 +20,7 @@ body {
 .link {
   font-family: inherit;
   text-decoration: none;
-  line-height: 1em;
+  line-height: 1.14em;
   letter-spacing: 0.02em;
 }
 /* header */
@@ -29,7 +29,7 @@ body {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
-  line-height: 1em;
+  line-height: 1.19em;
   color: var(--accent-color);
   text-decoration: none;
   }
@@ -69,7 +69,7 @@ body {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.16em;
+  line-height: 1.36em;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -82,7 +82,7 @@ body {
   padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.6em;
+  line-height: 1.875em;
   letter-spacing: 0.06em;
   color: var(--white-color);
   cursor: pointer;
@@ -95,12 +95,13 @@ body {
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1em;
+  line-height: 1.16em;
   color: var(--title-text-color);
 }
 .feature-title {
   font-weight: 700;
-  line-height: 1em;
+  font-size: 14px;
+  line-height: 1.14em;
   text-transform: uppercase;
   color: var(--title-text-color);
 }
@@ -118,12 +119,12 @@ body {
 .team-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1em;
+  line-height: 1.1875em;
   color: var(--title-text-color);
 }
 .team-descr {
   font-size: 16px;
-  line-height: 1em;
+  line-height: 1.1875em;
 }
 /* footer */
 .footer {
@@ -136,10 +137,12 @@ body {
   font-style: normal;
 }
 .addres-link {
+  line-height: 1.71em;
   color: var(--white-color);
 }
 .addres .link {
   color: rgba(255, 255, 255, 0.6);
+  line-height: 1.71em;
 }
 .addres .link:hover,
 .addres .link:focus {
@@ -161,7 +164,7 @@ body {
   background: var(--alternative-white-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.39em;
+  line-height: 1.625em;
   color: var(--title-text-color);
   padding: 6px 22px;
   border-style: none;
@@ -177,12 +180,17 @@ body {
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.71em;
+  line-height: 2em;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
 .portfolio-descr {
-  line-height: 1.6em;
+  line-height: 1.875em;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  
+
 }
 
 /* Скрыть заголовки */
